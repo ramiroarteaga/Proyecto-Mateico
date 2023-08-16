@@ -138,6 +138,11 @@ body {
     height: 180px;
 }
 
+.formulario{
+    display: grid;
+    
+}
+
 .sector2 {
     width: 100%;
     display: flex;
@@ -212,6 +217,51 @@ body {
     border: solid 8px black;
 }
 
+.fixed {
+    position: fixed;
+    bottom: 270px;
+    right: 90px;
+}
+
+.fixed img {
+    width: 45px;
+}
+
+/*!MAIN NOSOTROS HTML*/
+.conocenos h2 {
+    color: #220c10;
+    background-color: #eadaa2;
+    font-family: Georgia, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    border: 3px rgb(45, 51, 6) solid;
+}
+
+/*!MAIN CULTURA HTML*/
+.cultura .p1 {
+    background-color: #5e8c61;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.cultura .p2 {
+    background-color: aqua;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.cultura .p3 {
+    background-color: #ff6b35;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
 .footer {
     grid-area: footer;
     background-color: rgb(255, 255, 255);
@@ -283,7 +333,7 @@ body {
             "header" 90px
             "nav" 70px
             "main" auto
-            "footer" 200px;
+            "footer" 550px;
     }
 
     .header div h1 {
