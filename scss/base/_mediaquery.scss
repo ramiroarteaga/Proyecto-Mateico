@@ -1,0 +1,140 @@
+@media screen and (max-width: 2148px) and (min-width: 1101px) {
+    .colapsegrid{grid-template-columns: 2fr 1fr;
+}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 902px) {
+    .grid-container {
+        grid-template:
+            "header header header" 150px
+            "nav    nav  nav" auto
+            "main   main main" auto
+            "footer footer footer" 200px;
+    }
+    
+    .flexcultura{
+        flex-direction: column;
+    }
+
+    .colapsegrid{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 901px) {
+    .grid-container {
+        grid-template:
+            "header header header" 150px
+            "nav    nav  nav" auto
+            "main   main main" auto
+            "footer footer footer" 200px;
+    }
+
+    .colapsegrid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexcultura{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 801px) {
+    .grid-container {
+        grid-template:
+            "header header header" 150px
+            "nav    nav    nav" auto
+            "main   main main" auto
+            "footer footer footer" 200px;
+    }
+
+    .colapsegrid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wallpapers .gridwallpers img {
+        object-fit: cover;
+    }
+    
+    .fixed{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 501px) {
+    .grid-container {
+        grid-template:
+            "header header" 100px
+            "nav    nav" auto
+            "main   main" auto
+            "footer footer" 200px;
+    }
+
+    header{
+    h1{
+        font-size: 70px;
+    }
+}
+
+    .nav {
+        display: flex;
+        justify-content: end;
+    }
+
+    .colapsegrid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexcultura{
+        flex-direction: column;
+    }
+
+    .wallpapers .gridwallpers img {
+        object-fit: cover;
+    }
+    .fixed{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+    .grid-container {
+        grid-template:
+            "header" 90px
+            "nav" auto
+            "main" auto
+            "footer" 550px;
+    }
+
+    .header h1 {
+        font-size: 70px;
+        font-weight: 1000;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: left;
+    }
+
+    .nosotrosgrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    .main-column {
+            grid-column: 1;
+    }
+    }
+
+    .flexcultura{
+        flex-direction: column;
+    }
+
+    .wallpapers .gridwallpers img {
+        object-fit: cover;
+    }
+
+    .fixed{
+        visibility: hidden;
+    }
+}
