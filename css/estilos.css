@@ -23,8 +23,9 @@ header {
     font-style: normal;
     color: #36151E;
     transition: 3s; }
-    header h1:hover {
-      transform: scale(1.2); }
+    header h1 a {
+      text-decoration: none;
+      color: #36151E; }
 
 body {
   min-height: 100%; }
@@ -117,6 +118,7 @@ main {
     flex-direction: column; }
     main .sector2 div {
       background-color: black;
+      /*black*/
       padding: 5%;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
       margin: 50px;
@@ -126,7 +128,7 @@ main {
         display: flex;
         justify-content: center; }
       main .sector2 div p {
-        color: #ffffff;
+        color: white;
         display: flex;
         justify-content: center;
         margin: 10px;
@@ -249,7 +251,7 @@ main {
       .footer .pie2 a h4 {
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
         margin: 30px;
-        color: #000000;
+        color: black;
         text-transform: uppercase;
         transition: 2s; }
         .footer .pie2 a h4:hover {
@@ -270,7 +272,10 @@ main {
   .flexcultura {
     flex-direction: column; }
   .colapsegrid {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .ubicacion {
+    display: flex;
+    flex-wrap: wrap; } }
 
 @media screen and (max-width: 991px) and (min-width: 901px) {
   .grid-container {

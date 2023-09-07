@@ -19,6 +19,11 @@
     .colapsegrid{
         grid-template-columns: 1fr;
     }
+
+    .ubicacion{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 991px) and (min-width: 901px) {
     .grid-container {

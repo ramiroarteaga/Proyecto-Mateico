@@ -53,7 +53,7 @@ main {
     background-color: rgb(255, 255, 255);
 
     h2 {
-        color: #36151E;
+        color: nth($colores, 6);
         font-family: Georgia, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
             sans-serif;
         text-align: center;
@@ -124,20 +124,20 @@ main {
         flex-direction: column;
 
         div {
-            background-color: rgb(0, 0, 0);
+            background-color: nth($colores, 2 ); /*black*/
             padding: 5%;
             font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
             margin: 50px;
             text-transform: uppercase;
 
             h2 {
-                color: #918450;
+                color: nth($colores, 7);
                 display: flex;
                 justify-content: center;
             }
 
             p {
-                color: #ffffff;
+                color: nth($colores, 3);
                 display: flex;
                 justify-content: center;
                 margin: 10px;
@@ -222,7 +222,7 @@ main {
         margin: 50px;
         text-transform: uppercase;
         h2{
-            color:  #36151E;
+            color: nth($colores, 6 );
         }
     }
 }

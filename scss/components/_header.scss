@@ -14,10 +14,11 @@ header {
         font-size: 100px;
         font-weight: 1000;
         font-style:normal;
-        color: #36151E;
+        color: nth($colores, 6 );
         transition: 3s;
-        &:hover{
-            transform: scale(1.2);
+        a{
+            text-decoration: none;
+            color: nth($colores, 6 );
         }
     }
 }
