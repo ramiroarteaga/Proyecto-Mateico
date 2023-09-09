@@ -264,7 +264,10 @@ main {
 
 @media screen and (max-width: 2148px) and (min-width: 1101px) {
   .colapsegrid {
-    grid-template-columns: 2fr 1fr; } }
+    grid-template-columns: 2fr 1fr; }
+  .ubicacion div .dondeestamos {
+    width: 650px;
+    height: 350px; } }
 
 @media screen and (max-width: 1100px) and (min-width: 902px) {
   .grid-container {
@@ -275,7 +278,10 @@ main {
     grid-template-columns: 1fr; }
   .ubicacion {
     display: flex;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+    .ubicacion div .dondeestamos {
+      width: 650px;
+      height: 350px; } }
 
 @media screen and (max-width: 991px) and (min-width: 901px) {
   .grid-container {
